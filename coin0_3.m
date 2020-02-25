@@ -17,7 +17,7 @@ function[rt]=coin0_3()
       n(i)=a;
       f(i)=a/i;
     end
-    scatter(t,f,2)
+    scatter(t,f,2)    %if use coin0_3_100, please remove this line.
     axis([0,1000,0,1])
     rt=f(1000);    
 end
